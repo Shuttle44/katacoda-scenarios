@@ -1,5 +1,5 @@
 {
-	"pathwayTitle": "Scenarios concerning IT-Security"
+	"pathwayTitle": "Scenarios concerning IT-Security",
 	"title": "Create a vulnearble Server",
 	"description": "You will set up a Cent-OS 7 Server which is vulnearble to the Heartbleed-Exploit",
 	"difficulty": "beginner",
