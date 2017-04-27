@@ -9,12 +9,25 @@
 		"steps":
 		[
 			{
-				"title": "Step 1 - Run Command",
+				"title": "Step 1 - Install necessary packages",
 				"text": "step1.md"
 			},
 			{
-				"title": "Step 2 - Whatever",
+				"title": "Step 2 - Get openssl",
 				"text": "step2.md"
+			},
+			{
+				"title": "Step 3 - Configure openssl",
+				"courseData": "step3.sh",
+				"text": "step3.md"
+			},
+			{
+				"title": "Step 4 - Configure mod_ssl",
+				"text": "step4.md"
+			},
+			{
+				"title": "Step 5 - Run the server",
+				"text": "step5.md"
 			}
 		],
     "intro": 
@@ -30,7 +43,7 @@
 	"environment":
 	{
 		"uilayout": "terminal",
-		"uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nFeel free to start\u001b[m\r\n"
+		"uimessage1": "\u001b[32mYour Interactive Cent-OS Terminal.\r\nFeel free to start\u001b[m\r\n"
 	},
 	"backend":
 	{
