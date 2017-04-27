@@ -1,0 +1,39 @@
+{
+	"pathwayTitle": "Scenarios concerning IT-Security"
+	"title": "Create a vulnearble Server",
+	"description": "You will set up a Cent-OS 7 Server which is vulnearble to the Heartbleed-Exploit",
+	"difficulty": "beginner",
+	"time": "10 minutes",
+	"details":
+	{
+		"steps":
+		[
+			{
+				"title": "Step 1 - Run Command",
+				"text": "step1.md"
+			},
+			{
+				"title": "Step 2 - Whatever",
+				"text": "step2.md"
+			}
+		],
+    "intro": 
+		{
+			"text": "intro.md",
+			"credits": ""
+		},
+    "finish": 
+		{
+			"text": "finish.md"
+		}
+	},
+	"environment":
+	{
+		"uilayout": "terminal",
+		"uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nFeel free to start\u001b[m\r\n"
+	},
+	"backend":
+	{
+		"imageid": "centos7"
+	}
+}
