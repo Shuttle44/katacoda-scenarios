@@ -11,7 +11,7 @@ Second, compile it:
 
 Now we need to copy 2 files:
 `cp libssl.so /lib64`{{execute}}
-`cp libcrypt.so /lib64`{{execute}}
+`cp libcrypto.so /lib64`{{execute}}
 
 Now let's look into this directory:
 `cd /lib64`{{execute}}
@@ -22,6 +22,6 @@ You should notice three things:
 2. There is a dynamic link, named libssl.so.10
 3. This dynamic link points to a file named libssl.so.1.0.1e
 
-Same applies to libcrypt.'
+Same applies to libcrypt.
 
 Confusing? No worries, we'll solve this in the next step.

@@ -9,10 +9,10 @@ Next, we create a new dynamic link, which has the same name, but points to our f
 `ln -s libssl.so libssl.so.10`{{execute}}
 
 We do the same with the libcryt.so.10. First, remove old link:
-`rm libcrypt.so.10`{{execute}}
+`rm libcrypto.so.10`{{execute}}
 
 Next, create a new dynamic link:
-`ln -s libcrypt.so libcrypt.so.10`{{execute}}
+`ln -s libcrypto.so libcrypto.so.10`{{execute}}
 
 Let's see what we did:
 `ls -l`{{execute}}
