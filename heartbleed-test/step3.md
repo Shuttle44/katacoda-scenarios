@@ -2,9 +2,12 @@ Now we need to configure a few things.
 
 ## Task
 
-First, let's compile openssl:
+First, let's prepare openssl:
 `./config --shared`{{execute}}
 The "--shared" parameters allows us to use the created files.
+
+Second, compile it:
+`make`{{execute}}
 
 Now we need to copy 2 files:
 `cp libssl.so /lib64`{{execute}}
