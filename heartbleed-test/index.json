@@ -42,11 +42,11 @@
 	},
 	"environment":
 	{
-		"uilayout": "terminal",
+		"uilayout": "terminal-terminal",
 		"uimessage1": "\u001b[32mYour Interactive Cent-OS Terminal.\r\nFeel free to start\u001b[m\r\n"
 	},
 	"backend":
 	{
-		"imageid": "centos"
+		"imageid": "centos-cluster2"
 	}
 }

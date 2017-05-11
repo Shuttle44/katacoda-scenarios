@@ -7,3 +7,5 @@ Let's get it directly from archive:
 
 Great, now we need to unzip the package:
 `tar -xzf openssl-1.0.1e.tar.gz`{{execute}}
+
+Please enter the folder with the files just extracted.
