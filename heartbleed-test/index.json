@@ -47,6 +47,6 @@
 	},
 	"backend":
 	{
-		"imageid": "centos"
+		"imageid": "centos-cluster"
 	}
 }
