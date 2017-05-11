@@ -14,13 +14,29 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+	"assets": {
+      "client": [
+        {
+          "file": "test.yml",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "test.yml",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
-    "uilayout": "terminal-editor",
+	"showdashboard": true,
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
+    "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "centos"
+    "imageid": "docker"
   }
 }
