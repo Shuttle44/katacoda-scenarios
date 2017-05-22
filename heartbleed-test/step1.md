@@ -2,6 +2,9 @@ First, we need a few packages to get started.
 
 ## Task
 
+First thing is installing initscripts:
+`yum install initscripts -y`{{execute}}
+
 Let's install httpd, which well serve as our webserver:
 `yum install httpd -y`{{execute}}
 
